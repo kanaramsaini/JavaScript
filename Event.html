@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <script>
+        function hello(){
+            alert("Waring!!! you are in yellow line.");
+        }
+        function hello1(){
+            alert("Waring!!! you are leave paragraph area.");
+        }
+        function key() {
+            alert("Don't use keyboard in this website again.")
+        }
+        function resize(){
+            alert("Don't change the size of website.")
+        }
+        
+    </script>
+    
+    <style>
+        .box{
+            width:50%;
+            height:auto;
+            border:1px solid black;
+            background-color: antiquewhite;
+        }
+       .box h1{
+            background: gold;
+        }
+       .box p{
+            background: chartreuse;
+        }
+        .box button{
+            border:none;
+            margin-left: 45%;
+            text-align: center;
+            width: 100px;
+            height:40px;
+            font-size: large;
+            color:white;
+            background-color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body onkeypress="key()" onresize="resize()">
+    <div class="box"  onkeypress="key()" onresize="resize()">
+        <h1>Click here</h1>
+    <button ondblclick="hello()">ClickMe</button>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores 
+        necessitatibus nemo labore, harum impedit perferendis animi 
+        officia inventore? Delectus quas quibusdam animi nam aliquid debitis 
+        reiciendis ipsam provident! Quas nemo aliquid rem consectetur?
+         Architecto dolores blanditiis molestias ea corporis nulla id commodi
+          unde doloribus optio animi, perferendis vel? Pariatur.</p>
+          </div>
+          <a href="index.html"><h1>home page js</h1></a>
+</body>
+</html>
