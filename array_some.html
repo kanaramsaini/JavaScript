@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function:some</title>
+</head>
+<body>
+    
+    <script>
+        document.write("Some Function<br><br>")
+        var ages =[20,10,50,40,30];
+
+        document.write(ages+"<br>");
+
+        var a=ages.some(checkage);
+
+        document.write(a+"<br>");
+
+        function checkage(age){
+            return age <=50;
+        }
+        
+        document.write("<hr>")
+        document.write("Every Function<br><br>")
+        function everycheck(age){
+            return age<=10;
+        }
+        var ev_ages=[10,10,10,10,10,10,];
+        document.write("Every="+ev_ages+"<br>");
+
+        var b= ev_ages.every(everycheck);
+
+        document.write(b+"<br");
+
+
+
+    </script>
+</body>
+</html>

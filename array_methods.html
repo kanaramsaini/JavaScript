@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS:Array-Methods</title>
+    <style>
+        body{
+            font-size: 20px;
+            color:red;
+        }
+    </style>
 </head>
 <body>
     <h1>JAVA SCRIPT ARRAY METHODS</h1>
@@ -27,13 +33,26 @@
         //   c=shift & unshift
 
         var c=["Ram","Kanaram","Rahul","Shyam","Sohan","Ashish"];
-
-        c.shift()
-        document.write("shift="+c+"<br>")
+        c.shift();        
+        document.write(c+"<br>")
+       
        var d=c.shift();
         document.write("shiftadd="+d+"<br>");
-       document.write(d)
-        document.write("unshift="+d+"<br>");
+       c.unshift("rahul","mohan")
+        document.write("unshift="+c+"<br>");
+
+        document.write("<hr>")
+        
+        // concat & join
+        
+        var s=["ram ","shyam ", "sohan ","moha ",""]
+        var d=["sita","Gita"]
+        v=s.concat(d);
+        document.write("concat="+v+"<br>");
+        var e=s.join("saini <br>")
+        .toUpperCase();
+        document.write("join="+e+"<br>");
+        document.write("<hr>")
     </script>
        <a href="index.html"><h1>home page js</h1></a>
 </body>
