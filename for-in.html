@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS:FOR/IN loop</title>
+</head>
+<body>
+        <script>
+           
+            var form = {
+            firstName: 'kanaram',
+            lastName: 'saini',
+            age: 19,
+            country: 'India',
+
+        }
+            br="<br>"
+            document.write(form.firstName+br);
+            document.write(form.lastName+br);
+            document.write(form.age+br);
+            document.write(form.country+br);
+
+        for(var key in form){
+            document.write(key+" = "+form[key]+"<br>");
+        }
+        document.write("<hr>");
+
+        var forin={
+            Name: 'kanaram saini',
+            Email :'kanaramsaini980@gmail.com',
+            ContactNo:8209044325,
+            Age:18,
+            Country:'India'
+        }
+        for(var key in forin){
+            document.write(key+"= "+forin[key]+"<br>");
+        }
+        </script>
+</body>
+</html>
