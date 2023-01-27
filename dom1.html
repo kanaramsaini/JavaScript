@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS:DOM</title>
+</head>
+<body>
+   
+    <header id="header1">
+      <div id="hadding">
+      <h2>document Object module</h2>
+    </div>
+        <ul>
+          <li class="listtag"><a href="http://">Home</a></li>
+          <li class="listtag"><a href="http://">About us</a></li>
+          <li class="listtag"><a href="http://">Gallery</a></li>
+          <li class="listtag"><a href="http://">contact</a></li>
+          
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem rerum nihil aperiam quisquam architecto! A facere iusto deserunt earum repellendus magnam eaque impedit corrupti, praesentium cum possimus sed aliquid nam natus perspiciatis similique tempore sit nemo aperiam provident libero. Nobis.</p>
+
+        <ul id="mylist">
+          <li><a href="http://">Home</a></li>
+          <li><a href="http://">About us</a></li>
+          <li><a href="http://">Gallery</a></li>
+          <li><a href="http://">contact</a></li>
+          
+        </ul>
+      <button type="button" onclick="listFunction()">change list style</button>
+      <div class="pare" onmouseenter="bu">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto aperiam animi harum reprehenderit incidunt perspiciatis, nihil delectus est laudantium aliquid temporibus eum officia, provident debitis inventore voluptates tempora ad veniam quod modi maiores enim! Soluta doloremque repellat sit? Inventore ratione nulla perferendis, magnam maiores dignissimos delectus pariatur commodi aspernatur voluptate.</p>
+    </div>
+      <!-- <button type="button" onclick="button()">click me</button> -->
+    </header>
+
+
+   
+  <script>
+    // hadding
+    document.getElementById('hadding').textContent="WEBSITE NAME";
+    
+   
+
+    function listFunction(){
+      document.getElementById('mylist').style.backgroundColor="red";
+    }
+    function button(){
+      document.getElementsByClassName('pare').style.backgroundColor="pink";
+    }
+  </script>
+
+</body>
+</html>
