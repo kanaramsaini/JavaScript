@@ -1,4 +1,6 @@
 
+
+
 /* navbar */
 
 #logo{
@@ -46,51 +48,45 @@
 }
 /* end navbar */
 
-/* body css style */
-.containerbox{
-    width: 100%;
-    height: 80vh;
-    border: 0px solid black;
-    
-}
-.button_box{
-    border: 0px solid rebeccapurple;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:80vh;
-    width: 100%;
-    margin-top: 0 auto;
-}
-/* end body css style  */
+/* body style */
 
+/* end body style */
 /* footer style */
-
-/* #footer{
-    padding-top:20px;
-    padding-bottom: 10px;
-    background-color:rgb(71, 68, 68);
-}
-#footer #footer-box h2{
-    color:#fff;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-#footer #footer-box p{
-    text-transform: capitalize;
-    color:#fff;
-    font-weight: 100;
-    font-size:medium;
-} */
-
 #footer-head{
     text-align: center;
     background-color:rgb(71, 68, 68);
     color:#fff;
     padding-bottom: 10px;
-    margin-bottom:0px ;
 }
 #footer-head h3{
     padding-top: 20px;
 }
 /* end footer style */
+
+
+
+/* style css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#body_container{
+    height:80vh;
+    border:1px solid black;
+    
+}
+#box1{
+    width: 100%;
+    height: 350px;
+    margin-top:80px;
+    margin-left: 10px;
+     /* display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;  */ 
+    padding:20px;
+    color: brown;
+    background-color: bisque;
+    border: 1px solid salmon;
+}
+/* end css */
